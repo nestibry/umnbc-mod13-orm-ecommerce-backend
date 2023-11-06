@@ -4,7 +4,10 @@
   "description": "An Object-Relational Mapping (ORM) back-end for an e-commerce site utilizing an Express.js API and Sequelize to interact with a MySQL database.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "keywords": [],
   "author": "",
