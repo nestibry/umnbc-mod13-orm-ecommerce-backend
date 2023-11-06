@@ -1,0 +1,12 @@
+{
+  "name": "umnbc-mod13-orm-ecommerce-backend",
+  "version": "1.0.0",
+  "description": "An Object-Relational Mapping (ORM) back-end for an e-commerce site with an Express.js API and Sequelize to interact with a My",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
