@@ -13,5 +13,5 @@ app.use(routes);
 // Do not sync if in a production environment
 // const okToSync = (process.env.NODE_ENV === 'prod') ? false : true;
 sequelize.sync({force: false}).then(() => {
-    app.listen(PORT, () => console.log(`App listening on port ${PORT}!`))
+    app.listen(PORT, () => console.log('Server listening on: http://localhost:' + PORT));
 });
